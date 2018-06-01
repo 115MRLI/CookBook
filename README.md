@@ -1,5 +1,5 @@
 # CookBook
-
+   **** 添加依赖
     allprojects {
 		repositories {
 			...
