@@ -41,3 +41,5 @@
                       handleAnimation(v, mTrafficFoldingLayout, mTrafficLayout, mBottomView);
                   }
        });
+
+#  尚不成熟  自己写着玩的
