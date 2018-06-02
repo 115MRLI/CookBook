@@ -1,39 +1,14 @@
 package book.cook.view.fragment;
 
-import android.content.Context;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import book.cook.R;
+import book.cook.base.BaseFragment;
 
-/**
- * Created by peijiadi on 16/1/18.
- */
-public class Fragment4 extends Fragment {
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-    }
+public class Fragment4 extends BaseFragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
-
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        System.out.println("create");
-        return inflater.inflate(R.layout.layout4, container, false);
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
+    protected int getLayout() {
+        return R.layout.layout4;
     }
 }
 
